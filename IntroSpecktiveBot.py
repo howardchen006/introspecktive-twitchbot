@@ -64,12 +64,12 @@ def intchecker(num): # A handful of commands used to alter data structures invol
         return False
 
 bot = commands.Bot(
-    irc_token='', # Put oauth in
+    token='', # Put oauth in
     client_id='', # Put client id in
     # The oauth and client ID are more sensitive information that I would rather not share publicly, but the above 2 lines shouldn't be empty strings.
     nick='ZardBot',
     prefix='!', # The prefix indicates what each command starts with. For instance, !join, !plug, etc.
-    initial_channels=['IntroSpecktive', 'MacAtk_', 'RedFlare97'] # This indicates the Twitch channels that the bot will be active in when the program is run.
+    initial_channels=['IntroSpecktive', 'MacAtk_', 'RedFlare006'] # This indicates the Twitch channels that the bot will be active in when the program is run.
 )
 
 @bot.event
